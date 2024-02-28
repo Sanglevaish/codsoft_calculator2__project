@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#calculator {
+    width: 300px;
+    border: 10px solid #a14a4a;
+    padding: 10px;
+    border-radius: 7%;
+    box-shadow: 0 0 10px rgba(111, 93, 93, 0.1);
+}
+
+input {
+    width: 50%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 1px solid #25bd95;
+    font-size: 16px;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #c37c19;
+    cursor: pointer;
+}
